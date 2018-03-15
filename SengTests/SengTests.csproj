@@ -50,7 +50,10 @@
   <ItemGroup>
     <Compile Include="CoreTests\FlagHelperTests.cs" />
     <Compile Include="DrawingTests\ColorTests.cs" />
+    <Compile Include="ExtensionTests\ArrayExtensionsTests.cs" />
     <Compile Include="ExtensionTests\BitExtensionsTests.cs" />
+    <Compile Include="ExtensionTests\IEnumerableTests.cs" />
+    <Compile Include="ExtensionTests\XorSwapTests.cs" />
     <Compile Include="MathematicsTests\EvaluatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
