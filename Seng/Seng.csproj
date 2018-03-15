@@ -46,11 +46,17 @@
   <ItemGroup>
     <Compile Include="Collections\Deque.cs" />
     <Compile Include="Collections\IDeque.cs" />
+    <Compile Include="Core\Container.cs" />
     <Compile Include="Core\Dice.cs" />
+    <Compile Include="Core\BoolStorage.cs" />
+    <Compile Include="Core\IntIdAllocator.cs" />
     <Compile Include="Core\PInvoke.cs" />
+    <Compile Include="Core\UintIdAllocator.cs" />
     <Compile Include="Drawing\ColorARGB.cs" />
     <Compile Include="Drawing\ColorConverter.cs" />
     <Compile Include="Drawing\ColorHSL.cs" />
+    <Compile Include="Extensions\BitExtensions.cs" />
+    <Compile Include="Extensions\DictionaryExtensions.cs" />
     <Compile Include="Mathematics\Expressions\ITokenEvaluator.cs" />
     <Compile Include="Mathematics\Expressions\IParser.cs" />
     <Compile Include="Mathematics\Expressions\NotationConverter.cs" />

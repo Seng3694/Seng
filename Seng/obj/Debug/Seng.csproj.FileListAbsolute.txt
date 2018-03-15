@@ -4,3 +4,8 @@ C:\Users\Seng\Source\Repos\Seng\Seng\Seng\obj\Debug\Seng.csprojResolveAssemblyRe
 C:\Users\Seng\Source\Repos\Seng\Seng\Seng\obj\Debug\Seng.csproj.CoreCompileInputs.cache
 C:\Users\Seng\Source\Repos\Seng\Seng\Seng\obj\Debug\Seng.dll
 C:\Users\Seng\Source\Repos\Seng\Seng\Seng\obj\Debug\Seng.pdb
+C:\Users\Seng\Source\Repos\Seng\Seng\bin\Debug\Seng.dll
+C:\Users\Seng\Source\Repos\Seng\Seng\bin\Debug\Seng.pdb
+C:\Users\Seng\Source\Repos\Seng\Seng\obj\Debug\Seng.csprojResolveAssemblyReference.cache
+C:\Users\Seng\Source\Repos\Seng\Seng\obj\Debug\Seng.dll
+C:\Users\Seng\Source\Repos\Seng\Seng\obj\Debug\Seng.pdb
