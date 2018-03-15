@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Seng.Drawing;
 
-namespace SengTests.DrawingTests
+namespace Tests.DrawingTests
 {
     [TestClass]
     public class ColorTests

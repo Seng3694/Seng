@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Seng.Extensions;
 
-namespace SengTests.ExtensionTests
+namespace Tests.ExtensionTests
 {
     [TestClass]
     public class XorSwapTests

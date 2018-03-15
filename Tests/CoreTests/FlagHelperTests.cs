@@ -2,7 +2,7 @@
 using Seng.Core;
 using System.Reflection;
 
-namespace SengTests.CoreTests
+namespace Tests.CoreTests
 {
     [TestClass]
     public class FlagHelperTests

@@ -2,7 +2,7 @@
 using Seng.Extensions;
 using System.Linq;
 
-namespace SengTests.ExtensionTests
+namespace Tests.ExtensionTests
 {
     [TestClass]
     public class IEnumerableTests

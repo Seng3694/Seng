@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Seng.Mathematics;
 
-namespace SengTests.MathematicsTests
+namespace Tests.MathematicsTests
 {
     [TestClass]
     public class EvaluatorTests
