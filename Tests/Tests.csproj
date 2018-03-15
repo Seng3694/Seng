@@ -44,11 +44,17 @@
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.1.18\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.DesktopGL.3.6.0.1625\lib\net40\MonoGame.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CoreTests\CircleTests.cs" />
     <Compile Include="CoreTests\FlagHelperTests.cs" />
+    <Compile Include="CoreTests\RectTests.cs" />
     <Compile Include="DrawingTests\ColorTests.cs" />
     <Compile Include="ExtensionTests\ArrayExtensionsTests.cs" />
     <Compile Include="ExtensionTests\BitExtensionsTests.cs" />
@@ -58,9 +64,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="MonoGame.Framework.dll.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Seng.MonoGame\Seng.MonoGame.csproj">
+      <Project>{2D0F33CE-CD45-4711-8D3A-E8F99B24AB5B}</Project>
+      <Name>Seng.MonoGame</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Seng\Seng.csproj">
       <Project>{32240355-9055-4B0F-AF04-6124871E96C4}</Project>
       <Name>Seng</Name>

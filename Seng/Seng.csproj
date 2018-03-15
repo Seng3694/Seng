@@ -60,6 +60,7 @@
     <Compile Include="Extensions\DictionaryExtensions.cs" />
     <Compile Include="Extensions\IEnumerableExtensions.cs" />
     <Compile Include="Extensions\NumericExtensions.cs" />
+    <Compile Include="Extensions\ObjectExtensions.cs" />
     <Compile Include="Mathematics\Expressions\ITokenEvaluator.cs" />
     <Compile Include="Mathematics\Expressions\IParser.cs" />
     <Compile Include="Mathematics\Expressions\NotationConverter.cs" />
